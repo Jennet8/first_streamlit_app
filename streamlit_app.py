@@ -9,5 +9,5 @@ streamlit.header('Header')
 streamlit.text('Body Line 1')
 streamlit.text('Body Line 2')
 
-streamlit.multiselect("Pick some fruits", list(my_fruit_list.index))
+streamlit.multiselect("Pick some fruits", list(my_fruit_list.index), ['Avocado','Strawberries'])
 streamlit.dataframe(my_fruit_list)
